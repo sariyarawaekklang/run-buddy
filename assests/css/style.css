@@ -1,0 +1,50 @@
+/* The * below is a UNIVERSAL SELECTOR, makes syntax match EVERYTHING */
+* {
+margin: 0;
+padding: 0;
+}
+
+body {
+    /* I'm a CSS comment! */
+    color: #39a6b2;
+    font-family: Helvetica, Arila, san-serif;
+}
+
+/* apply styles <header> */
+header {
+    padding: 20px 35px;
+    background-color: #39a6b2;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: 0;
+    display: inline;
+}
+
+header a {
+    text-decoration: none;
+    color: #fce138;
+}
+
+
+/* This makes the list under nav FLOAT to the right side of the page
+and ADDS SPACE (margin) to the top and bottom of the words */
+header nav {
+    float: right;
+    margin: 7px 0;
+}
+
+/* This makes the things listed go in A LINE */
+header nav ul li {
+    display: inline;
+}
+
+/* This ADDS SPACE (margin) in between the things in the list */
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+}
