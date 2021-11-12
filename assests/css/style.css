@@ -6,7 +6,6 @@ box-sizing: border-box;
 }
 
 body {
-    /* I'm a CSS comment! */
     color: #39a6b2;
     font-family: Helvetica, Arila, san-serif;
 }
@@ -30,19 +29,19 @@ header a {
     color: #fce138;
 }
 
-/* This makes the list under nav FLOAT to the right side of the page
+/* Makes the list under nav FLOAT to the right side of the page
 and ADDS SPACE (margin) to the top and bottom of the words */
 header nav {
     float: right;
     margin: 7px 0;
 }
 
-/* This makes the things listed go in A LINE */
+/* Mkaes the things listed go in A LINE */
 header nav ul li {
     display: inline;
 }
 
-/* This ADDS SPACE (margin) in between the things in the list */
+/* ADDS SPACE (margin) in between the things in the list */
 header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
@@ -62,7 +61,7 @@ footer h2 {
     margin: 0;
 }
 
-/* This gives vertical space (line-height) between lines of text content
+/* Gives vertical space (line-height) between lines of text content
 and aligns text (text-align) */
 footer div {
     float: right;
