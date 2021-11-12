@@ -11,7 +11,7 @@ body {
     font-family: Helvetica, Arila, san-serif;
 }
 
-/* apply styles <header> */
+/* Applies styles <header> */
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
@@ -29,7 +29,6 @@ header a {
     text-decoration: none;
     color: #fce138;
 }
-
 
 /* This makes the list under nav FLOAT to the right side of the page
 and ADDS SPACE (margin) to the top and bottom of the words */
@@ -74,3 +73,62 @@ footer div {
 footer a {
     color: #024e76;
 }
+
+section {
+    padding: 60px;
+}
+
+/* HERO STYLE START */
+.hero {
+    background-image: url(../images/hero-bg.jpeg);
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.hero-form {
+    border: 3px solid #024e76;
+    background-color: #fce138;
+    padding: 20px;
+    width: 500px;
+    color: #024e76;
+    position: absolute;
+    bottom: 120px;
+    right: 140px;
+}
+
+.hero-form h3 {
+    font-size: 24px;
+    margin: 0;
+
+}
+
+/* ADDS SPACE (top and bottom) to the <p> element */
+.hero-form p {
+    margin: 5px 0 15px 0;
+}
+
+.form-input {
+    border: 1px solid #024e76;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #024e76;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+/* For styling radio buttom */
+.hero-form label {
+    margin: 0 5px;
+}
+
+.hero-form button {
+    color: #fce138;
+    background-color: #024e76;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+/* HERO STYLES END */
