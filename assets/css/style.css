@@ -29,14 +29,14 @@ header a {
     color: #fce138;
 }
 
-/* Makes the list under nav FLOAT to the right side of the page
+/* List under nav FLOATS to the right side of the page
 and ADDS SPACE (margin) to the top and bottom of the words */
 header nav {
     float: right;
     margin: 7px 0;
 }
 
-/* Mkaes the things listed go in A LINE */
+/* List goes in A LINE */
 header nav ul li {
     display: inline;
 }
@@ -271,7 +271,8 @@ section {
     font-size: 32px;
 }
 
-.contact-info p, .contact-info address {
+.contact-info p,
+.contact-info address {
     margin: 20px 0;
     line-height: 1.5;
     font-size: 20px;
