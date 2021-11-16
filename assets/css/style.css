@@ -10,7 +10,7 @@ body {
     font-family: Helvetica, Arila, san-serif;
 }
 
-/* Applies styles <header> */
+/* HEADER AMD NAV BAR STYLES */
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
@@ -49,6 +49,7 @@ header nav ul li a {
     font-size: 1.55vw;
 }
 
+/* FOOTER STYLES START */
 footer {
     background: #fce138;
     width: 100%;
@@ -86,20 +87,6 @@ section {
     flex-wrap: wrap;
 }
 
-.hero-form {
-    border: 3px solid #024e76;
-    background-color: #fce138;
-    padding: 20px;
-    color: #024e76;
-    width: 40%;
-    margin: 3.5%;
-}
-
-.hero-form h3 {
-    font-size: 24px;
-    margin: 0;
-}
-
 .hero-cta {
     width: 35%;
     text-align: right;
@@ -115,7 +102,20 @@ section {
     color: #fce138;
 }
 
-/* ADDS SPACE (top and bottom) to the <p> element */
+.hero-form {
+    border: 3px solid #024e76;
+    background-color: #fce138;
+    padding: 20px;
+    color: #024e76;
+    width: 40%;
+    margin: 3.5%;
+}
+
+.hero-form h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
 .hero-form p {
     margin: 5px 0 15px 0;
 }
@@ -130,7 +130,6 @@ section {
     margin-bottom: 15px;
 }
 
-/* For styling radio buttom */
 .hero-form label {
     margin: 0 5px;
 }
@@ -142,49 +141,9 @@ section {
     padding: 10px 20px;
     font-size: 16px;
 }
-/* HERO STYLES END */
 
-
-/* What We Do section */
-.intro p {
-    line-height: 1.7;
-    color: #39a6b2;
-    width: 80%;
-    font-size: 20px;
-    margin: 0 auto;
-    text-align: center;
-}
-
-/* What You Do section */
-.steps {
-    background: #fce138;
-}
-
-.steps div {
-    margin-bottom: 80px;
-}
-
-.steps img {
-    width: 15%;
-    margin: 10px 0;
-}
-
-.steps h3 {
-    color: #024e76;
-    font-size: 46px;
-    margin-top: 10px;
-}
-
-.steps p {
-    color: #39a6b2;
-    font-size: 23px;
-}
-
-.steps span {
-    font-size: 38px;
-}
-
-.section-title {
+ /* SECTION TITLE STYLES */
+ .section-title {
     font-size: 55px;
     color: #024e76;
     border-bottom: 3px solid;
@@ -201,6 +160,70 @@ section {
 .secondary-border {
     border-color: #39a6b2;
 }
+
+/* WHAT WE DO STYLES */
+.intro p {
+    line-height: 1.7;
+    color: #39a6b2;
+    width: 80%;
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* WHAT YOU DO STYLES */
+.steps {
+    background: #fce138;
+}
+
+.step {
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    border-bottom: 1px solid #39a6b2;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.step h3 {
+    color: #024e76;
+    font-size: 46px;
+    flex: 1 30%;
+}
+
+.step-info {
+    flex: 2 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.step-img {
+    flex: 1 12%;
+    margin-right: 20px;
+}
+
+.step-img img {
+    max-width: 100%;
+}
+
+.step-text {
+    flex: 12;
+}
+
+.step-text p {
+    color: #39a6b2;
+    font-size: 18px;
+}
+
+.step-text h4 {
+    font-size: 26px;
+    line-height: 1.5;
+    color: #024e76;
+}
+
 
 /* Meet The Trainers section */
 .trainers {
