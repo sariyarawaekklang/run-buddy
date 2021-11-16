@@ -146,21 +146,17 @@ section {
 
 
 /* What We Do section */
-.intro {
-    text-align: center;
-}
-
 .intro p {
     line-height: 1.7;
     color: #39a6b2;
     width: 80%;
     font-size: 20px;
     margin: 0 auto;
+    text-align: center;
 }
 
 /* What You Do section */
 .steps {
-    text-align: center;
     background: #fce138;
 }
 
@@ -191,10 +187,11 @@ section {
 .section-title {
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
     border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
 }
 
 .primary-border {
@@ -205,12 +202,12 @@ section {
     border-color: #39a6b2;
 }
 
+/* Meet The Trainers section */
 .trainers {
     text-align: center;
 }
 
 .trainer {
-    text-align: center;
     width: 900px;
     margin: 0 auto 30px auto;
     background: #024e76;
@@ -218,7 +215,6 @@ section {
     overflow: auto;
 }
 
-/* Meet The Trainers section */
 .trainer img {
     width: 35%;
     float: left;
@@ -256,8 +252,18 @@ section {
 
 /* REACH OUT STYLES START */
 .contact {
-    text-align: center;
     background: #024e76;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact-info > * {
+    flex: 1;
+    margin: 15px;
 }
 
 .contact h2 {
@@ -265,16 +271,10 @@ section {
 }
 
 .contact-info iframe {
-    width: 400px;
     height: 400px;
 }
 
 .contact-info div {
-    width: 410px;
-    display: inline-block;
-    vertical-align: top;
-    text-align: left;
-    margin: 30px 0 0 60px;
     color: white; 
 }
 
@@ -287,11 +287,35 @@ section {
 .contact-info address {
     margin: 20px 0;
     line-height: 1.5;
-    font-size: 20px;
+    font-size: 16px;
     font-style: normal;
+}
+
+.contact-form input, .contactform textarea {
+    border: 1px solid #024e76;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #024e76;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.contact-form button {
+    width: 100%;
+    border: none;
+    background: #fce138;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 16px;
 }
 
 .contact-info a{
     color: #fce138;
 }
 /* REACH OUT STYLES END */
+
+.flex-row {
+    display: flex;
+}
