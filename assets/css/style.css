@@ -264,17 +264,13 @@ section {
     font-size: 17px;
 }
 
-.text-left {
-    text-align: left;
-}
-
-.text-right {
-    text-align: right;
-}
-
 /* REACH OUT STYLES START */
 .contact {
     background: #024e76;
+}
+
+.contact h2 {
+    color: #fce138;
 }
 
 .contact-info {
@@ -286,10 +282,6 @@ section {
 .contact-info > * {
     flex: 1;
     margin: 15px;
-}
-
-.contact h2 {
-    color: #fce138;
 }
 
 .contact-info iframe {
@@ -305,8 +297,7 @@ section {
     font-size: 32px;
 }
 
-.contact-info p,
-.contact-info address {
+.contact-info p, .contact-info address {
     margin: 20px 0;
     line-height: 1.5;
     font-size: 16px;
